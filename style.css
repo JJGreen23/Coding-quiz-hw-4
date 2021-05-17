@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+    
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    max-width: 90%;
+    background-color: darkcyan;
+    box-shadow: 0 0 10px 5px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+#btnA, #btnB, #btnC, #btnD {
+    outline: none;
+    background-color: darksalmon;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
